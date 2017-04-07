@@ -1,0 +1,605 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+%Beamer theme and color theme
+\usetheme{Frankfurt}
+\usecolortheme{beaver}
+
+\usepackage{amsmath,amssymb}
+
+%Expectation symbol
+\DeclareMathOperator{\E}{\mathbb{E}}
+
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{indentfirst}
+\usepackage{amsfonts}
+\usepackage{changepage}
+
+%Set slide number
+\setbeamertemplate{footline}[frame number]
+
+%remove navigation
+\beamertemplatenavigationsymbolsempty
+
+
+
+\definecolor{blue}{RGB}{0,0,120}
+
+\usepackage{hyperref}
+
+\usepackage{array}
+
+\usepackage[section]{placeins}
+
+\usepackage{graphicx}
+\end_preamble
+\options handout
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+What Causes Industry Agglomeration? Evidence from Coagglomeration Patterns
+ (AER, 2010)
+\end_layout
+
+\begin_layout Subtitle
+By Ellison, Glaeser, and Kerr
+\end_layout
+
+\begin_layout Author
+Palermo Penano
+\end_layout
+
+\begin_layout Section
+Section title displayed along top
+\end_layout
+
+\begin_layout Subsection
+Subsections give you the round buttons along top
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why do firms cluster near one another?
+\end_layout
+
+\begin_layout Itemize
+Location Vs.
+ Coagglomeration ???
+\end_layout
+
+\begin_layout Itemize
+Test Marshall's three theories of agglomeration 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Three types of transportion costs 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+cost of moving goods
+\end_layout
+
+\begin_layout Itemize
+cost of moving people
+\end_layout
+
+\begin_layout Itemize
+cost of moving ideas
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Three types of transportation costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These costs can be reduced by industrial agglomeration
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+nulls
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+null
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Did changing occupation barriers in India between 1983 and 2005 have a large
+ macroeconomic effect?
+\end_layout
+
+\begin_layout Itemize
+Hyperlinks below allow opens a browser to the website in the link 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+href{http://billingsgazette.com/news/state-and-regional/montana/teacher-shortages
+-at-indian-schools-are-a-chronic-problem/article_8fc8ac62-9652-54b4-b435-53500f1
+308f0.html}{
+\backslash
+beamerbutton{1}} 
+\backslash
+href{http://www.dailymail.co.uk/indiahome/indianews/article-2704698/Teacher-shortag
+e-hits-Indias-premier-tech-colleges-salaries-fail-draw-best-candidates.html}{
+\backslash
+beamerbutton{2}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Literature
+\end_layout
+
+\begin_layout Subsection
+Literature
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Estimating Relative Occupational Barrier
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{implic_wage_gap}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset Formula 
+\[
+{\color{blue}\frac{p_{ig}}{p_{i,hcm}}=}\underbrace{\frac{T_{ig}}{T_{i,hcm}}}_{\text{Mean Talent}}\underbrace{\left(\frac{\tau_{ig}}{\tau_{i,hcm}}\right)^{-\theta}}_{\text{Barrier}}{\color{blue}\cdot\left(\frac{\overline{wage}_{g}}{\overline{wage}_{hcm}}\right)^{-\theta(1-\eta)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Distribution of a group across occupations relative to hcm depends on
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mean talent of group 
+\begin_inset Formula $g$
+\end_inset
+
+ in occupation 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+The relative barriers that group 
+\begin_inset Formula $g$
+\end_inset
+
+ faces in 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Wage gap (also a function of barriers)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Equation suggests that one must simultaneously account for distribution
+ across occupations and wage gap to infer frictions facing group 
+\begin_inset Formula $g$
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{implic_wage_gap_App}{
+\backslash
+beamerbutton{Wage Gap}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Implication on Wage Gap
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{implic_wage_gap_App}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Given 
+\begin_inset Formula $g$
+\end_inset
+
+ and 
+\begin_inset Formula $hcm$
+\end_inset
+
+, wage gap across all occupation is the same
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset Formula 
+\[
+\frac{\overline{wage}_{ig}}{\overline{wage}_{i,hcm}}=\left(\frac{\sum_{s}\tilde{w}_{sg}^{\theta}}{\sum_{s}\tilde{w}_{s,wm}^{\theta}}\right)^{\frac{1}{\theta(1-\eta)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Intuition: 
+\series default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+High barriers in occupation 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\begin_inset Formula $\implies$
+\end_inset
+
+ only most talented group 
+\begin_inset Formula $g$
+\end_inset
+
+ enter 
+\begin_inset Formula $\implies$
+\end_inset
+
+ increase average wage of group 
+\begin_inset Formula $g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Low barriers in occupation 
+\begin_inset Formula $i'$
+\end_inset
+
+ 
+\begin_inset Formula $\implies$
+\end_inset
+
+ attracts low talented group 
+\begin_inset Formula $g$
+\end_inset
+
+ workers 
+\begin_inset Formula $\implies$
+\end_inset
+
+ lower average wage of group 
+\begin_inset Formula $g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+In the model, selection effect exactly offset each other so that 
+\color blue
+
+\begin_inset Formula 
+\[
+\frac{\overline{wage}_{ig}}{\overline{wage}_{i,hcm}}=\frac{\overline{wage}_{i'g}}{\overline{wage}_{i',hcm}},\ \forall i,i'
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Implication:
+\series default
+ The wage gap is a poor measure of the frictions faced by a group in an
+ occupation 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hyperlink{implic_wage_gap}{
+\backslash
+beamerbutton{Go Back}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
