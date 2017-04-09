@@ -128,6 +128,28 @@ Empirics is simple—focus a lot on intuition behind EG and DO index and interpr
 ation of results
 \end_layout
 
+\begin_layout Plain Layout
+Next: 
+\end_layout
+
+\begin_layout Itemize
+Finish reading part 2 and part 3 (empirical results)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+what are the main empirical insights
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Finish Part 4
+\end_layout
+
+\begin_layout Itemize
+Explain intuition of EG and OD indexes
+\end_layout
+
 \end_inset
 
 
@@ -138,7 +160,7 @@ ation of results
 status open
 
 \begin_layout Plain Layout
-
+asdasdas
 \end_layout
 
 \end_inset
@@ -259,56 +281,15 @@ EG Index
 \end_inset
 
 
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Did changing occupation barriers in India between 1983 and 2005 have a large
- macroeconomic effect?
-\end_layout
-
 \begin_layout Itemize
-Hyperlinks below allow opens a browser to the website in the link 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-href{http://billingsgazette.com/news/state-and-regional/montana/teacher-shortages
--at-indian-schools-are-a-chronic-problem/article_8fc8ac62-9652-54b4-b435-53500f1
-308f0.html}{
-\backslash
-beamerbutton{1}} 
-\backslash
-href{http://www.dailymail.co.uk/indiahome/indianews/article-2704698/Teacher-shortag
-e-hits-Indias-premier-tech-colleges-salaries-fail-draw-best-candidates.html}{
-\backslash
-beamerbutton{2}}
-\end_layout
+a
+\begin_inset Formula 
+\[
+\gamma_{ij}^{c}=\frac{}{}
+\]
 
 \end_inset
 
@@ -316,6 +297,10 @@ beamerbutton{2}}
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator parbreak
 \end_inset
@@ -387,6 +372,92 @@ asdasd
 Empirical Results: OLS / IV
 \end_layout
 
+\begin_layout Itemize
+sd
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OLS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ols_spec.png
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -401,6 +472,10 @@ OLS-Univariate
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+Basic idea: regress coagglomeration index on 
+\end_layout
+
 \begin_layout Itemize
 Table 3 image
 \end_layout
@@ -444,6 +519,25 @@ OLS
 IV
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+IV
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Endogeneity problem: 
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
