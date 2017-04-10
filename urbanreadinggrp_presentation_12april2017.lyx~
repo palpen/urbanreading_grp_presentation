@@ -141,13 +141,68 @@ Finish reading part 2 and part 3 (empirical results)
 what are the main empirical insights
 \end_layout
 
+\begin_layout Itemize
+what is the endogeneity problem that needs to be addressed !!! (pg, 1205)???
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Finish Part 4
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+What is the endogenieuty problem to be addressed
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Explain intuition of EG and OD indexes
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Things to consider:
+\end_layout
+
+\begin_layout Plain Layout
+- is removing the coaggNA from the specification useful? what is the significanc
+e of doing this?
+\end_layout
+
+\begin_layout Plain Layout
+- Which industries are most coagglomerated (tables 1 and table 2)
+\end_layout
+
+\begin_layout Plain Layout
+- 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Terminologies:
+\end_layout
+
+\begin_layout Itemize
+input-output linkages: 
+\end_layout
+
+\begin_layout Itemize
+marshallian spillovers: 
 \end_layout
 
 \end_inset
@@ -160,7 +215,7 @@ Explain intuition of EG and OD indexes
 status open
 
 \begin_layout Plain Layout
-
+asdasdas
 \end_layout
 
 \end_inset
@@ -183,7 +238,7 @@ Location Vs.
 \end_layout
 
 \begin_layout Itemize
-Test Marshall's three theories of agglomeration 
+Test Marshall's three theories of agglomeration (LIST THEM !!!)
 \end_layout
 
 \begin_deeper
@@ -262,6 +317,56 @@ These costs can be reduced by industrial agglomeration
 
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Motivation for Study
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+plants similar to other plants in their industry along many dimensions
+\end_layout
+
+\begin_layout Itemize
+but across industries, plants similar in some dimensions but not others
+\end_layout
+
+\begin_layout Itemize
+exchange goods but not workers; hire sames workers but never trade goods
+\end_layout
+
+\begin_layout Itemize
+We know that firms in similar industries will collocate to take advantage
+ of similarities
+\end_layout
+
+\begin_layout Itemize
+but what about firms in different industries? what factors causes them to
+ collocate?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+these are the three marshillian factors + natural advantages
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Measuring Coagglomeration
 \end_layout
@@ -285,7 +390,7 @@ EG Index
 
 \begin_deeper
 \begin_layout Itemize
-a
+main intuition
 \begin_inset Formula 
 \[
 \gamma_{ij}^{c}=\frac{}{}
@@ -327,7 +432,60 @@ DO Index
 
 \begin_deeper
 \begin_layout Itemize
+main intuition: advantages over EG index
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Descriptive Statistics of Indices
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Table 1 !!!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
 asd
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Industries that are most coagglomerated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Table 2 !!!
 \end_layout
 
 \end_deeper
@@ -369,11 +527,14 @@ asdasd
 \end_layout
 
 \begin_layout Section
-Empirical Results: OLS / IV
+Results: OLS / IV
 \end_layout
 
-\begin_layout Itemize
-sd
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -394,7 +555,7 @@ OLS
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -416,6 +577,255 @@ centering
 \begin_inset Graphics
 	filename ols_spec.png
 	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{Coagg}_{ij}^{NA}$
+\end_inset
+
+: measures coagglomeration based on Industry Characteristics X Local Characteris
+tics (agglomeration due to natural advantages)
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+e.g.
+ agri.
+ input use X % farm land 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{LaborCorrelation}_{ij}$
+\end_inset
+
+:
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OLS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ols_spec.png
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{InputOutput}_{ij}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\text{Tech}_{ij}$
+\end_inset
+
+:
+\end_layout
+
+\end_deeper
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OLS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pg, 1203, part 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For each of Ellison-Glaeser and Duranton-Overman index, estimate four seperate
+ versions
+\end_layout
+
+\begin_layout Itemize
+Ellison-Glaeser index: State, PMSA, and County total employment; State entry
+ employment
+\end_layout
+
+\begin_layout Itemize
+Duranton-Overman index: localization threshold: 1000 mi, 500 mi, 250 mi,
+ and 100 mi
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+OLS-Univariate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb3.png
+	scale 27.5
 
 \end_inset
 
@@ -463,7 +873,93 @@ raggedright
 status open
 
 \begin_layout Plain Layout
-OLS-Univariate
+OLS-Multivariate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb4.png
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+IV
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+IV
 \end_layout
 
 \end_inset
@@ -473,15 +969,50 @@ OLS-Univariate
 
 \begin_deeper
 \begin_layout Itemize
-Basic idea: regress coagglomeration index on 
+industries may be collocated NOT because of Marshallian factors
 \end_layout
 
 \begin_layout Itemize
-Table 3 image
+***Industries may be collacated due to some randome event, but their flexible
+ production technologies allow them to adjust to nearby labor and material
+ inputs.
+ 
 \end_layout
 
 \begin_layout Itemize
-focus on interpretation
+***So we might attribute the use of the nearby labour and material inputs
+ as a reason for collocating.
+ when in fact they collocated randomly and was just able to adjust their
+ production processes to the nearby labor and material inputs.
+\end_layout
+
+\begin_layout Itemize
+reverse causaility: collocation (tendency of industries to locate in the
+ same region) could be driving input-output linkages or hiring patterns
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+e.g.
+ ??? input-output linkage drives collocation between shoemaking and leather
+ industries.
+ But, perhaps if some random event causes shoemaking and plastic industries
+ instead to collocate, then shoes would have more plastic in it.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Concern is that random events causing coagglomeration is diriving input
+ and labour patterns (leading to biased estimates of coefs on these vars.),
+ rather than input and labour patterns driving 
 \end_layout
 
 \end_deeper
@@ -497,33 +1028,6 @@ focus on interpretation
 status open
 
 \begin_layout Plain Layout
-OLS-Multivariate
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Table 4 image
-\end_layout
-
-\end_deeper
-\begin_layout Subsection
-OLS
-\end_layout
-
-\begin_layout Subsection
-IV
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 IV
 \end_layout
 
@@ -534,7 +1038,17 @@ IV
 
 \begin_deeper
 \begin_layout Itemize
-Endogeneity problem: 
+What is the IV?
+\end_layout
+
+\begin_layout Itemize
+UK IV:Measures of input-out linkage, labour market, and technology for the
+ UK (predicts US measures and affects US Coagg only through US measures
+ so long as you control for CoaggNA)
+\end_layout
+
+\begin_layout Itemize
+US Spatial instruments: 
 \end_layout
 
 \end_deeper
@@ -565,6 +1079,44 @@ how natural advantages is modeled
 
 \begin_layout Itemize
 panel or cross sectional? (i think it's just 1987)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Details
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Data needed to estimate EG
+\end_layout
+
+\begin_layout Itemize
+What is the unit of obseravation
+\end_layout
+
+\begin_layout Itemize
+Data needed to estimate DO
+\end_layout
+
+\begin_layout Itemize
+Unit of observation
 \end_layout
 
 \end_deeper

@@ -121,7 +121,7 @@ Palermo Penano
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Empirics is simple—focus a lot on intuition behind EG and DO index and interpret
@@ -158,30 +158,6 @@ What is the endogenieuty problem to be addressed
 \end_deeper
 \begin_layout Itemize
 Explain intuition of EG and OD indexes
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Things to consider:
-\end_layout
-
-\begin_layout Plain Layout
-- is removing the coaggNA from the specification useful? what is the significanc
-e of doing this?
-\end_layout
-
-\begin_layout Plain Layout
-- Which industries are most coagglomerated (tables 1 and table 2)
-\end_layout
-
-\begin_layout Plain Layout
-- 
 \end_layout
 
 \end_inset
@@ -322,7 +298,7 @@ These costs can be reduced by industrial agglomeration
 status open
 
 \begin_layout Plain Layout
-Motivation for Study
+a
 \end_layout
 
 \end_inset
@@ -344,21 +320,9 @@ exchange goods but not workers; hire sames workers but never trade goods
 \end_layout
 
 \begin_layout Itemize
-We know that firms in similar industries will collocate to take advantage
- of similarities
+
 \end_layout
 
-\begin_layout Itemize
-but what about firms in different industries? what factors causes them to
- collocate?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-these are the three marshillian factors + natural advantages
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -433,59 +397,6 @@ DO Index
 \begin_deeper
 \begin_layout Itemize
 main intuition: advantages over EG index
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Descriptive Statistics of Indices
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Table 1 !!!
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-asd
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Industries that are most coagglomerated
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Table 2 !!!
 \end_layout
 
 \end_deeper
@@ -969,21 +880,7 @@ IV
 
 \begin_deeper
 \begin_layout Itemize
-industries may be collocated NOT because of Marshallian factors
-\end_layout
-
-\begin_layout Itemize
-***Industries may be collacated due to some randome event, but their flexible
- production technologies allow them to adjust to nearby labor and material
- inputs.
- 
-\end_layout
-
-\begin_layout Itemize
-***So we might attribute the use of the nearby labour and material inputs
- as a reason for collocating.
- when in fact they collocated randomly and was just able to adjust their
- production processes to the nearby labor and material inputs.
+Endogeneity problem: 
 \end_layout
 
 \begin_layout Itemize
@@ -1007,12 +904,6 @@ e.g.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-Concern is that random events causing coagglomeration is diriving input
- and labour patterns (leading to biased estimates of coefs on these vars.),
- rather than input and labour patterns driving/explaining coagglomeration
 \end_layout
 
 \end_deeper
@@ -1039,16 +930,6 @@ IV
 \begin_deeper
 \begin_layout Itemize
 What is the IV?
-\end_layout
-
-\begin_layout Itemize
-UK IV:Measures of input-out linkage, labour market, and technology for the
- UK (predicts US measures and affects US Coagg only through US measures
- so long as you control for CoaggNA)
-\end_layout
-
-\begin_layout Itemize
-US Spatial instruments: 
 \end_layout
 
 \end_deeper
