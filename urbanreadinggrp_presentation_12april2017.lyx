@@ -121,7 +121,7 @@ Palermo Penano
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Empirics is simple—focus a lot on intuition behind EG and DO index and interpret
@@ -191,7 +191,7 @@ e of doing this?
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Terminologies:
@@ -210,12 +210,16 @@ marshallian spillovers:
 
 \end_layout
 
+\begin_layout Section
+Motivation
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-asdasdas
+Research Question
 \end_layout
 
 \end_inset
@@ -228,7 +232,7 @@ asdasdas
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 Why do firms cluster near one another?
 \end_layout
 
@@ -380,7 +384,7 @@ Ellison-Glaeser Index (JPE, 1997)
 status open
 
 \begin_layout Plain Layout
-EG Index
+Ellison-Glaeser Index
 \end_layout
 
 \end_inset
@@ -389,16 +393,29 @@ EG Index
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-main intuition
+\begin_layout Standard
 \begin_inset Formula 
 \[
-\gamma_{ij}^{c}=\frac{}{}
+\gamma_{ij}^{c}=\frac{\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})}{1-\sum_{m=1}^{M}x_{m}^{2}}
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Two industry version of coagglomeration index (Ellison and Glaeser, JPE
+ 1997)
+\end_layout
+
+\begin_layout Itemize
+Derived from a model where local industry-specific spillovers, natural advantage
+s, and randome chance all contribute to geographic concentration
+\end_layout
+
+\begin_layout Itemize
+Advantages? Disadvantages?
 \end_layout
 
 \end_deeper
@@ -422,7 +439,7 @@ Duranton-Overman Index (ReStud, 2005)
 status open
 
 \begin_layout Plain Layout
-DO Index
+Duranton-Overman Index
 \end_layout
 
 \end_inset
@@ -433,6 +450,27 @@ DO Index
 \begin_deeper
 \begin_layout Itemize
 main intuition: advantages over EG index
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{K}_{ij}^{Emp}(p)=\frac{1}{h\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)}\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)f\left(\frac{d-d_{r,s}}{h}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Kernel density estimator of density function of bilateral distance between
+ establishments !!!
+\end_layout
+
+\begin_layout Itemize
+Adv.
+ over EG index—(list)
 \end_layout
 
 \end_deeper
@@ -457,8 +495,64 @@ Descriptive Statistics of Indices
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Table 1 !!!
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb1.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -470,7 +564,6 @@ Table 1 !!!
 \end_layout
 
 \begin_layout Frame
-asd
 \begin_inset Argument 4
 status open
 
@@ -484,8 +577,64 @@ Industries that are most coagglomerated
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Table 2 !!!
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb2.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -1064,7 +1213,224 @@ US Spatial instruments:
 status open
 
 \begin_layout Plain Layout
-Shortcomings
+IV-Results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb5.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge{Appendix}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ellison and Glaeser, AER PP (1999)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb1_egaer1999.png
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
 \end_layout
 
 \end_inset
@@ -1074,11 +1440,294 @@ Shortcomings
 
 \begin_deeper
 \begin_layout Itemize
-how natural advantages is modeled
+The HHI index measures market concentration in a given industry
+\begin_inset Formula 
+\[
+\sum_{l=1}^{N_{F}}m_{l}^{2}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
-panel or cross sectional? (i think it's just 1987)
+where 
+\begin_inset Formula $m_{l}$
+\end_inset
+
+ is the market share (e.g.
+ employment share of firm 
+\begin_inset Formula $l$
+\end_inset
+
+) of firm 
+\begin_inset Formula $l$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{F}$
+\end_inset
+
+ is the total number of firms in the industry
+\end_layout
+
+\begin_layout Itemize
+This index tells us the probability of drawing any firm twice.
+ A high value of this index suggests that the market is highly concentrated
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To measure the geographical concentration of an industry we can use the
+ following index
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M$
+\end_inset
+
+ is the number of regions in the country; 
+\begin_inset Formula $s_{mi}$
+\end_inset
+
+ is the employment share of industry 
+\begin_inset Formula $i$
+\end_inset
+
+ in region 
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This index tells us the probability (where employment share is used as an
+ estimate of the probability) of drawing the same region twice
+\end_layout
+
+\begin_layout Itemize
+A high value of this index suggests that this industry is highly concentrated
+ in a few regions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To measure coagglomeration, we look at the probability of drawing, say,
+ region 1 for both industry 
+\begin_inset Formula $i$
+\end_inset
+
+ and industry 
+\begin_inset Formula $j$
+\end_inset
+
+ (so two separate draws for each industry).
+ This probability is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{1i}s_{1j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If we are interested in drawing the any region twice for each industry,
+ we look at 
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}s_{mj}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A high value of this index suggests that industry 
+\begin_inset Formula $i$
+\end_inset
+
+ and industry 
+\begin_inset Formula $j$
+\end_inset
+
+ like to produce together across regions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}s_{mj}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Regions that have more people in it are likely to also have the 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+ coagglomerated, even though the two industries do not necessarily benefit
+ from coagglomeration.
+\end_layout
+
+\begin_layout Itemize
+Thus, we must control for size of each region 
+\begin_inset Formula $m$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x_{m}$
+\end_inset
+
+ is the share of national employment that's in region 
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Related to covariance of region-industry employment shares in the two industry
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Account for geographical fineness ()
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})}{1-\sum_{m=1}^{M}x_{m}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
