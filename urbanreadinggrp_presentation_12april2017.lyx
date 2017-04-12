@@ -112,7 +112,12 @@ What Causes Industry Agglomeration? Evidence from Coagglomeration Patterns
 \end_layout
 
 \begin_layout Subtitle
-By Ellison, Glaeser, and Kerr
+By G.
+ Ellison, E.
+ L.
+ Glaeser, and W.
+ R.
+ Kerr
 \end_layout
 
 \begin_layout Author
@@ -251,6 +256,10 @@ Final
 Motivation
 \end_layout
 
+\begin_layout Subsection
+Motivation
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -275,6 +284,82 @@ Research Question
 Why do firms cluster near one another?
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Research Question
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Why do firms cluster near one another?
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Reduce shipping cost of inputs and finished goods (input-output linkage)
+\end_layout
+
+\begin_layout Enumerate
+Take advantage of gains from a larger labour pool 
+\end_layout
+
+\begin_layout Enumerate
+Take advantage of gains from intellectual or technological spillovers
+\end_layout
+
+\begin_layout Enumerate
+Natural advantages
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Marshall (1920)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Method
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
 Regression analysis to test the contribution of each of the three Marshallian
  theories of industrial agglomeration + natural advantages to industry coagglome
@@ -291,48 +376,6 @@ Addresses reverse causality where coagglomeration patterns
 
 \end_deeper
 \begin_layout Standard
-\begin_inset Separator parbreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Marshallian Forces + Natural Advantages
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-Factors that may explain why industries coagglomerate:
-\end_layout
-
-\begin_layout Enumerate
-Reduce shipping cost of inputs and finished goods
-\end_layout
-
-\begin_layout Enumerate
-Take advantage of gains from a larger labour pool 
-\end_layout
-
-\begin_layout Enumerate
-Take advantage of gains from intellectual or technological spillovers
-\end_layout
-
-\begin_layout Enumerate
-Natural advantages
-\end_layout
-
-\end_deeper
-\begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
@@ -344,7 +387,7 @@ Natural advantages
 status open
 
 \begin_layout Plain Layout
-Key Results
+Main Results
 \end_layout
 
 \end_inset
@@ -354,8 +397,8 @@ Key Results
 
 \begin_deeper
 \begin_layout Itemize
-Marshallian forces are important for explaining variation in indusrial coagglome
-ration
+Individually, each Marshallian force are important for explaining variation
+ in industrial coagglomeration
 \end_layout
 
 \begin_layout Itemize
@@ -377,6 +420,51 @@ ion than natural advantages
 
 \begin_layout Section
 Measuring Extent of Coagglomeration
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Large{Measuring Extent of Industry Coagglomeration}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -736,6 +824,81 @@ what are the confidence intervals based on
 status open
 
 \begin_layout Plain Layout
+Duranton-Overman Index
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename do_fig2.png
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Data used to estimate indices
 \end_layout
 
@@ -771,7 +934,127 @@ US Census Bureau's Census of Manufacturing
 \end_layout
 
 \begin_layout Section
-Why do firms agglomerate
+Why do Firms Agglomerate?
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Large{Why do Firms Agglomerate?}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ols_spec.png
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1035,6 +1318,11 @@ even if industries would not otherwise have interacted through Marshallian
  forces
 \end_layout
 
+\begin_layout Itemize
+e.g.
+ ship building and oil refining
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Controls for coagglomeration between 
@@ -1154,6 +1442,51 @@ raggedright
 
 \begin_layout Section
 Empirical Results
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Large{Empirical Results}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
