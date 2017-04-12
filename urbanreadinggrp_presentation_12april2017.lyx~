@@ -421,7 +421,7 @@ Ellison-Glaeser Index (JPE, 1997)
 status open
 
 \begin_layout Plain Layout
-Ellison-Glaeser Index
+Ellison-Glaeser Index (JPE, 1997)
 \end_layout
 
 \end_inset
@@ -565,7 +565,7 @@ Duranton-Overman Index (ReStud, 2005)
 status open
 
 \begin_layout Plain Layout
-Duranton-Overman Index !!!
+Duranton-Overman Index
 \end_layout
 
 \end_inset
@@ -636,6 +636,26 @@ Duranton-Overman Index !!!
  : Gaussian kernel (bell curve)
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Formula $d$
+\end_inset
+
+: scale at which localization is measured
+\end_layout
+
+\begin_layout Itemize
+Estimates the probability density function of the the distribution of bilateral
+ distances between every establishment in industry 
+\begin_inset Formula $i$
+\end_inset
+
+ and every establishment in industry 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -649,7 +669,7 @@ Duranton-Overman Index !!!
 status open
 
 \begin_layout Plain Layout
-Duranton-Overman Index !!!
+Duranton-Overman Index
 \end_layout
 
 \end_inset
@@ -692,7 +712,8 @@ Index of localization:
 \begin_inset Formula $\bar{K}_{ij}^{Emp}(d)$
 \end_inset
 
- is the upper 5% confidence interval
+ is the upper 5% confidence interval in randomly generated counterfactual
+ distribution
 \end_layout
 
 \begin_layout Itemize
@@ -706,7 +727,7 @@ Estimate for each industry pair
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Why is the distance imporant? 
@@ -1315,7 +1336,11 @@ raggedright
 \end_layout
 
 \begin_layout Section
-Empirical Results: OLS / IV
+Empirical Results
+\end_layout
+
+\begin_layout Subsection
+OLS
 \end_layout
 
 \begin_layout Frame
@@ -1976,55 +2001,6 @@ Appendix
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge{Appendix}
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 EG Coagglomeration Index Intuition
 \end_layout
 
@@ -2311,7 +2287,7 @@ EG Coagglomeration Index Intuition
 
 \begin_deeper
 \begin_layout Itemize
-Account for geographical fineness
+Account for overall geographic concetration of employment nationally
 \end_layout
 
 \begin_layout Standard
@@ -2323,44 +2299,6 @@ Account for geographical fineness
 \end_inset
 
 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Details
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Data needed to estimate EG
-\end_layout
-
-\begin_layout Itemize
-What is the unit of obseravation
-\end_layout
-
-\begin_layout Itemize
-Data needed to estimate DO
-\end_layout
-
-\begin_layout Itemize
-Unit of observation
 \end_layout
 
 \end_deeper
