@@ -121,7 +121,7 @@ Palermo Penano
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Empirics is simple—focus a lot on intuition behind EG and DO index and interpret
@@ -191,7 +191,7 @@ e of doing this?
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Terminologies:
@@ -210,12 +210,33 @@ marshallian spillovers:
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Intro
+\end_layout
+
+\begin_layout Plain Layout
+- 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Motivation !!!
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-asdasdas
+Research Question
 \end_layout
 
 \end_inset
@@ -229,26 +250,25 @@ asdasdas
 
 \begin_deeper
 \begin_layout Itemize
+
+\series bold
 Why do firms cluster near one another?
 \end_layout
 
 \begin_layout Itemize
-Location Vs.
- Coagglomeration ???
+Regression analysis to test the contribution of each of the three Marshallian
+ theories of industrial agglomeration + natural advantages to industry coagglome
+ration
 \end_layout
 
 \begin_layout Itemize
-Test Marshall's three theories of agglomeration (LIST THEM !!!)
+Addresses reverse causality where coagglomeration patterns 
+\begin_inset Formula $\implies$
+\end_inset
+
+ industrial relationships !!!
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-compare how important these forces are for increasing extent of agglomeration
- relative to the effect of location natural advantages on extent of agglomeratio
-n
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator parbreak
@@ -262,7 +282,7 @@ n
 status open
 
 \begin_layout Plain Layout
-Three types of transportion costs 
+Gains from Agglomeration
 \end_layout
 
 \end_inset
@@ -271,16 +291,20 @@ Three types of transportion costs
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-cost of moving goods
+\begin_layout Enumerate
+reduction in shipping cost of inputs and finished goods
 \end_layout
 
-\begin_layout Itemize
-cost of moving people
+\begin_layout Enumerate
+access to larger labour pool
 \end_layout
 
-\begin_layout Itemize
-cost of moving ideas
+\begin_layout Enumerate
+intellectual or technological spillovers
+\end_layout
+
+\begin_layout Enumerate
+natural advantages
 \end_layout
 
 \end_deeper
@@ -296,7 +320,7 @@ cost of moving ideas
 status open
 
 \begin_layout Plain Layout
-Three types of transportation costs
+Key Results!!!
 \end_layout
 
 \end_inset
@@ -306,10 +330,14 @@ Three types of transportation costs
 
 \begin_deeper
 \begin_layout Itemize
-These costs can be reduced by industrial agglomeration
+asdasdasdasd
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -322,7 +350,7 @@ These costs can be reduced by industrial agglomeration
 status open
 
 \begin_layout Plain Layout
-Motivation for Study
+Main Contribution !!!
 \end_layout
 
 \end_inset
@@ -332,7 +360,7 @@ Motivation for Study
 
 \begin_deeper
 \begin_layout Itemize
-plants similar to other plants in their industry along many dimensions
+Plants similar to other plants in their industry along many dimensions
 \end_layout
 
 \begin_layout Itemize
@@ -344,8 +372,7 @@ exchange goods but not workers; hire sames workers but never trade goods
 \end_layout
 
 \begin_layout Itemize
-We know that firms in similar industries will collocate to take advantage
- of similarities
+Firms in similar industries will collocate to take advantage of similarities
 \end_layout
 
 \begin_layout Itemize
@@ -353,12 +380,6 @@ but what about firms in different industries? what factors causes them to
  collocate?
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-these are the three marshillian factors + natural advantages
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -368,7 +389,7 @@ these are the three marshillian factors + natural advantages
 \end_layout
 
 \begin_layout Section
-Measuring Coagglomeration
+Measuring Extent of Coagglomeration
 \end_layout
 
 \begin_layout Subsection
@@ -380,7 +401,7 @@ Ellison-Glaeser Index (JPE, 1997)
 status open
 
 \begin_layout Plain Layout
-EG Index
+Ellison-Glaeser Index
 \end_layout
 
 \end_inset
@@ -400,6 +421,33 @@ EG Index
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Formula $s_{mi}=\text{share of indistry i's employment}$
+\end_inset
+
+ ; 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x_{m}=\text{mean employment share in region \ensuremath{m} across all manufacturing industries}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Two industry version of index developed in Ellison and Glaeser, JPE 1997
+\end_layout
+
+\begin_layout Itemize
+Derived from a model where local industry-specific spillovers, natural advantage
+s, and random chance all contribute to geographic concentration
+\end_layout
+
+\begin_layout Itemize
+Level: state, PMSA, county
+\end_layout
+
 \end_deeper
 \begin_layout Frame
 
@@ -407,6 +455,81 @@ EG Index
 
 \begin_layout Standard
 \begin_inset Separator parbreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ellison-Glaeser Index
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\gamma_{ij}^{c}=\frac{\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})}{1-\sum_{m=1}^{M}x_{m}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A: Comparable across industries
+\end_layout
+
+\begin_layout Itemize
+A: Accounts for region 
+\begin_inset Quotes eld
+\end_inset
+
+size
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A: localization vs industrial concentration
+\end_layout
+
+\begin_layout Itemize
+DA: Establishments arbitrarily allocated to spatial units 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+distance between establishments not explicitly accounted for
+\end_layout
+
+\begin_layout Itemize
+different size spatial units
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+DA: Agglomerated industries cut by an administrative border?
+\end_layout
+
+\begin_layout Itemize
+DA: Statistical significance ()
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
 \end_inset
 
 
@@ -421,7 +544,50 @@ Duranton-Overman Index (ReStud, 2005)
 status open
 
 \begin_layout Plain Layout
-DO Index
+Duranton-Overman Index !!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\hat{K}_{ij}^{Emp}(p)=\frac{1}{h\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)}\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)f\left(\frac{d-d_{r,s}}{h}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Kernel density estimator of density function of bilateral distance between
+ establishments !!!
+\end_layout
+
+\begin_layout Itemize
+Adv.
+ over EG index
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Data used to estimate indices
 \end_layout
 
 \end_inset
@@ -431,18 +597,20 @@ DO Index
 
 \begin_deeper
 \begin_layout Itemize
-main intuition: advantages over EG index
+US Census Bureau's Census of Manufacturing
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\hat{K}_{ij}^{Emp}(p)=\frac{1}{h\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)}\sum_{r=1}^{n_{i}}\sum_{s=1}^{n_{j}}e(r)e(s)f\left(\right)
-\]
+\begin_layout Itemize
+300,000 establishemnts employing 17 million workers
+\end_layout
 
-\end_inset
+\begin_layout Itemize
+3-digit level SIC3
+\end_layout
 
-
+\begin_layout Itemize
+7381 industry pairs per year (1987, 1997).
+ 122 industries
 \end_layout
 
 \end_deeper
@@ -467,8 +635,64 @@ Descriptive Statistics of Indices
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Table 1 !!!
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb1.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -480,7 +704,6 @@ Table 1 !!!
 \end_layout
 
 \begin_layout Frame
-asd
 \begin_inset Argument 4
 status open
 
@@ -494,8 +717,64 @@ Industries that are most coagglomerated
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-Table 2 !!!
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb2.png
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -510,12 +789,17 @@ Table 2 !!!
 Why do firms agglomerate
 \end_layout
 
+\begin_layout Subsection
+A
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Marshallian Theories
+A.
+ Proximity to Customers: Goods
 \end_layout
 
 \end_inset
@@ -525,7 +809,48 @@ Marshallian Theories
 
 \begin_deeper
 \begin_layout Itemize
-asdasd
+Firms cluster to reduce shipping costs
+\end_layout
+
+\begin_layout Itemize
+1987 Input-Output account as measure of extent to which industries buy and
+ sell from one another 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Input_{i\rightarrow j}=0.39$
+\end_inset
+
+: Leather Tanning and Finishing input from Meat Products
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Output_{i\rightarrow j}=0.82$
+\end_inset
+
+: Public building and Related Furniture sales to Motor Vehicles and Equipment
+\end_layout
+
+\begin_layout Itemize
+Most values for an industry pair is zero 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Input_{ij}=max\{Input_{i\rightarrow j},Input_{i\leftarrow j}\}$
+\end_inset
+
+, 
+\begin_inset Formula $Output_{ij}=max\{Output_{i\rightarrow j},Output_{i\leftarrow j}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $InputOutput_{ij}=max\{Input_{ij},Output_{ij}\}$
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -536,15 +861,314 @@ asdasd
 
 \end_layout
 
-\begin_layout Section
-Results: OLS / IV
+\begin_layout Subsection
+B
 \end_layout
 
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+B.
+ Labour Market Pooling: People
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Larger labour pool 
+\begin_inset Formula $\implies$
+\end_inset
+
+ risk sharing, worker-firm matches, higher investment in human capital by
+ workers (lower ex post appropriation in clusters)
+\end_layout
+
+\begin_layout Itemize
+Need measure of extent to which industries use same type of worker
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Share_{io}$
+\end_inset
+
+: share of industry 
+\begin_inset Formula $i$
+\end_inset
+
+ 's employment in occupaation 
+\begin_inset Formula $o$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $LabourCorrelation_{ij}$
+\end_inset
+
+ = 
+\begin_inset Formula $corr(Share_{io},Share_{jo})$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+across occupations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Most correlated: Motor vehicles and Motorcycles, Bicycles, and Parts (0.984)
+\end_layout
+
+\begin_layout Itemize
+Least correlated: Logging and Aircraft and Parts (-0.046)
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+C
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+C.
+ Intellectual or Tech.
+ Spillovers: Ideas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms cluster to speed the flow of ideas
+\end_layout
+
+\begin_layout Itemize
+Scherer (1984)'s measure of extent to which R&D activity from one industry
+ flow out to benefit another
+\end_layout
+
+\begin_layout Itemize
+NBER Patent data: measure extent to which tech.
+ in industry 
+\begin_inset Formula $i$
+\end_inset
+
+ cite tech.
+ in industry 
+\begin_inset Formula $j$
+\end_inset
+
+ (normalized by total citations for the industries)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Tech_{ij}$
+\end_inset
+
+ and 
+\begin_inset Formula $Patent_{ij}$
+\end_inset
+
+ (construction similar to 
+\begin_inset Formula $InputOutput_{ij}$
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+D
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+D.
+ Natural Advantages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms cluster in a region because the region has resources useful for their
+ production
+\end_layout
+
+\begin_layout Itemize
+Forests, areas with exogenously cheap electricity, coastal regions, etc.
+\end_layout
+
+\begin_layout Itemize
+Coagglomeration may exist if two industries are attracted to the same natural
+ advantage
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+even if industries would not otherwise have interacted through Marshallian
+ forces
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Controls for coagglomeration between 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+ due to natural advantages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Coagg_{ij}^{NA}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ellison and Glaeser (AER PP, 1999)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+D.
+ Natural Advantages: Ellison-Glaeser (AER PP, 1999)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb1_egaer1999.png
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Empirical Results: OLS / IV
 \end_layout
 
 \begin_layout Frame
@@ -658,7 +1282,7 @@ e.g.
 status open
 
 \begin_layout Plain Layout
-OLS
+OLS!!!
 \end_layout
 
 \end_inset
@@ -1069,16 +1693,12 @@ US Spatial instruments:
 
 \end_layout
 
-\begin_layout Section
-Appendix
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Ellison and Glaeser, AER PP (1999)
+IV-Results
 \end_layout
 
 \end_inset
@@ -1091,7 +1711,7 @@ Ellison and Glaeser, AER PP (1999)
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1111,8 +1731,8 @@ centering
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename tb1_egaer1999.png
-	scale 27
+	filename tb5.png
+	scale 30
 
 \end_inset
 
@@ -1141,6 +1761,417 @@ raggedright
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge{End}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge{Appendix}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The HHI index measures market concentration in a given industry
+\begin_inset Formula 
+\[
+\sum_{l=1}^{N_{F}}m_{l}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+where 
+\begin_inset Formula $m_{l}$
+\end_inset
+
+ is the market share (e.g.
+ employment share of firm 
+\begin_inset Formula $l$
+\end_inset
+
+) of firm 
+\begin_inset Formula $l$
+\end_inset
+
+ and 
+\begin_inset Formula $N_{F}$
+\end_inset
+
+ is the total number of firms in the industry
+\end_layout
+
+\begin_layout Itemize
+This index tells us the probability of drawing any firm twice.
+ A high value of this index suggests that the market is highly concentrated
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To measure the geographical concentration of an industry we can use the
+ following index
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $M$
+\end_inset
+
+ is the number of regions in the country; 
+\begin_inset Formula $s_{mi}$
+\end_inset
+
+ is the employment share of industry 
+\begin_inset Formula $i$
+\end_inset
+
+ in region 
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This index tells us the probability (where employment share is used as an
+ estimate of the probability) of drawing the same region twice
+\end_layout
+
+\begin_layout Itemize
+A high value of this index suggests that this industry is highly concentrated
+ in a few regions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To measure coagglomeration, we look at the probability of drawing, say,
+ region 1 for both industry 
+\begin_inset Formula $i$
+\end_inset
+
+ and industry 
+\begin_inset Formula $j$
+\end_inset
+
+ (so two separate draws for each industry).
+ This probability is 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s_{1i}s_{1j}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+If we are interested in drawing the any region twice for each industry,
+ we look at 
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}s_{mj}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A high value of this index suggests that industry 
+\begin_inset Formula $i$
+\end_inset
+
+ and industry 
+\begin_inset Formula $j$
+\end_inset
+
+ like to produce together across regions
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}s_{mi}s_{mj}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Regions that have more people in it are likely to also have the 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+ coagglomerated, even though the two industries do not necessarily benefit
+ from coagglomeration.
+\end_layout
+
+\begin_layout Itemize
+Thus, we must control for size of each region 
+\begin_inset Formula $m$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $x_{m}$
+\end_inset
+
+ is the share of national employment that's in region 
+\begin_inset Formula $m$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Related to covariance of region-industry employment shares in the two industry
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+EG Coagglomeration Index Intuition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Account for geographical fineness
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})}{1-\sum_{m=1}^{M}x_{m}}
+\]
 
 \end_inset
 
