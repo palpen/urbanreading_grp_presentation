@@ -497,7 +497,7 @@ Ellison-Glaeser Index (JPE, 1997)
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $s_{mi}=\text{share of indistry i's employment}$
+\begin_inset Formula $s_{mi}=\text{share of industry i's employment}$
 \end_inset
 
 
@@ -791,7 +791,7 @@ Estimate for each industry pair
 \end_inset
 
  and each distance 
-\begin_inset Formula $d\in\{100km,250km,500km,1000km\}$
+\begin_inset Formula $d\in\{100mi,250mi,500mi,1000mi\}$
 \end_inset
 
 
@@ -1986,9 +1986,9 @@ huge{End}
 
 \end_layout
 
-\begin_layout Section
-Appendix
-\end_layout
+\begin_layout Standard
+\begin_inset Note Note
+status open
 
 \begin_layout Frame
 \begin_inset Argument 4
@@ -2004,7 +2004,7 @@ Descriptive Statistics
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -2065,7 +2065,7 @@ raggedright
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2086,7 +2086,7 @@ Industries that are most coagglomerated
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -2147,7 +2147,7 @@ raggedright
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2207,7 +2207,7 @@ This index tells us the probability of drawing any firm twice.
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2233,7 +2233,7 @@ To measure the geographical concentration of an industry we can use the
  following index
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \sum_{m=1}^{M}s_{mi}^{2}
@@ -2274,7 +2274,7 @@ A high value of this index suggests that this industry is highly concentrated
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2309,7 +2309,7 @@ To measure coagglomeration, we look at the probability of drawing, say,
  This probability is 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 s_{1i}s_{1j}
@@ -2346,7 +2346,7 @@ A high value of this index suggests that industry
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2367,7 +2367,7 @@ EG Coagglomeration Index Intuition
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \sum_{m=1}^{M}s_{mi}s_{mj}
@@ -2423,7 +2423,7 @@ Related to covariance of region-industry employment shares in the two industry
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Separator plain
 \end_inset
 
@@ -2448,7 +2448,7 @@ EG Coagglomeration Index Intuition
 Account for overall geographic concentration of employment nationally
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \frac{\sum_{m=1}^{M}(s_{mi}-x_{m})(s_{mj}-x_{m})}{1-\sum_{m=1}^{M}x_{m}}
@@ -2460,8 +2460,6 @@ Account for overall geographic concentration of employment nationally
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
 \end_inset
 
 
