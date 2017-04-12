@@ -227,11 +227,11 @@ Final
 \end_layout
 
 \begin_layout Plain Layout
-- finish DO index explanation
+- finish DO index explanation X
 \end_layout
 
 \begin_layout Plain Layout
-- finish empirical section explanation
+- finish empirical section explanation 
 \end_layout
 
 \begin_layout Plain Layout
@@ -248,7 +248,7 @@ Final
 \end_layout
 
 \begin_layout Section
-Motivation !!!
+Motivation
 \end_layout
 
 \begin_layout Frame
@@ -286,7 +286,7 @@ Addresses reverse causality where coagglomeration patterns
 \begin_inset Formula $\implies$
 \end_inset
 
- industrial relationships !!!
+ industrial relationships
 \end_layout
 
 \end_deeper
@@ -311,20 +311,24 @@ Marshallian Forces + Natural Advantages
 \end_layout
 
 \begin_deeper
-\begin_layout Enumerate
-reduction in shipping cost of inputs and finished goods
+\begin_layout Standard
+Factors that may explain why industries coagglomerate:
 \end_layout
 
 \begin_layout Enumerate
-access to larger labour pool
+Reduce shipping cost of inputs and finished goods
 \end_layout
 
 \begin_layout Enumerate
-intellectual or technological spillovers
+Take advantage of gains from a larger labour pool 
 \end_layout
 
 \begin_layout Enumerate
-natural advantages
+Take advantage of gains from intellectual or technological spillovers
+\end_layout
+
+\begin_layout Enumerate
+Natural advantages
 \end_layout
 
 \end_deeper
@@ -340,7 +344,7 @@ natural advantages
 status open
 
 \begin_layout Plain Layout
-Key Results!!!
+Key Results
 \end_layout
 
 \end_inset
@@ -350,7 +354,13 @@ Key Results!!!
 
 \begin_deeper
 \begin_layout Itemize
-asdasdasdasd
+Marshallian forces are important for explaining variation in indusrial coagglome
+ration
+\end_layout
+
+\begin_layout Itemize
+Marshallian forces explain more of the variation in coagglomeration than
+ natural advantages
 \end_layout
 
 \end_deeper
@@ -358,49 +368,6 @@ asdasdasdasd
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Main Contribution !!!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Plants similar to other plants in their industry along many dimensions
-\end_layout
-
-\begin_layout Itemize
-but across industries, plants similar in some dimensions but not others
-\end_layout
-
-\begin_layout Itemize
-exchange goods but not workers; hire sames workers but never trade goods
-\end_layout
-
-\begin_layout Itemize
-Firms in similar industries will collocate to take advantage of similarities
-\end_layout
-
-\begin_layout Itemize
-but what about firms in different industries? what factors causes them to
- collocate?
-\end_layout
-
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -506,11 +473,17 @@ Ellison-Glaeser Index
 \end_layout
 
 \begin_layout Itemize
-A: Comparable across industries
+\begin_inset Formula $+$
+\end_inset
+
+ Comparable across industries
 \end_layout
 
 \begin_layout Itemize
-A: Accounts for region 
+\begin_inset Formula $+$
+\end_inset
+
+ Accounts for region 
 \begin_inset Quotes eld
 \end_inset
 
@@ -522,11 +495,17 @@ size
 \end_layout
 
 \begin_layout Itemize
-A: localization vs industrial concentration
+\begin_inset Formula $+$
+\end_inset
+
+ Localization vs industrial concentration
 \end_layout
 
 \begin_layout Itemize
-DA: Establishments arbitrarily allocated to spatial units 
+\begin_inset Formula $-$
+\end_inset
+
+ Establishments arbitrarily allocated to spatial units 
 \end_layout
 
 \begin_deeper
@@ -538,14 +517,16 @@ distance between establishments not explicitly accounted for
 different size spatial units
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-DA: Agglomerated industries cut by an administrative border?
+Agglomerated industries cut by an administrative border?
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-DA: Statistical significance (departure from agglomeration arising from
- randmoness)
+\begin_inset Formula $-$
+\end_inset
+
+ Statistical significance (departure from agglomeration arising from randomness)
 \end_layout
 
 \end_deeper
@@ -565,7 +546,7 @@ Duranton-Overman Index (ReStud, 2005)
 status open
 
 \begin_layout Plain Layout
-Duranton-Overman Index
+Duranton-Overman Index (ReStud, 2005)
 \end_layout
 
 \end_inset
@@ -730,7 +711,7 @@ Estimate for each industry pair
 status collapsed
 
 \begin_layout Plain Layout
-Why is the distance imporant? 
+Why is the distance important? 
 \end_layout
 
 \begin_layout Plain Layout
@@ -769,7 +750,7 @@ US Census Bureau's Census of Manufacturing
 \end_layout
 
 \begin_layout Itemize
-300,000 establishemnts employing 17 million workers
+300,000 establishments employing 17 million workers
 \end_layout
 
 \begin_layout Itemize
@@ -779,170 +760,6 @@ US Census Bureau's Census of Manufacturing
 \begin_layout Itemize
 7381 industry pairs per year (1987, 1997).
  122 industries
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Descriptive Statistics of Indices
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename tb1.png
-	scale 27.5
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-footnotesize
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-raggedright
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Industries that are most coagglomerated
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename tb2.png
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-footnotesize
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-raggedright
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -1069,7 +886,7 @@ Need measure of extent to which industries use same type of worker
 \begin_inset Formula $i$
 \end_inset
 
- 's employment in occupaation 
+ 's employment in occupation 
 \begin_inset Formula $o$
 \end_inset
 
@@ -1410,180 +1227,6 @@ raggedright
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $\text{Coagg}_{ij}^{NA}$
-\end_inset
-
-: measures coagglomeration based on Industry Characteristics X Local Characteris
-tics (agglomeration due to natural advantages)
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-e.g.
- agri.
- input use X % farm land 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{LaborCorrelation}_{ij}$
-\end_inset
-
-:
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-OLS!!!
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ols_spec.png
-	scale 32
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-raggedright
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{InputOutput}_{ij}$
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\text{Tech}_{ij}$
-\end_inset
-
-:
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-OLS
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-pg, 1203, part 3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-For each of Ellison-Glaeser and Duranton-Overman index, estimate four seperate
- versions
-\end_layout
-
-\begin_layout Itemize
-Ellison-Glaeser index: State, PMSA, and County total employment; State entry
- employment
-\end_layout
-
-\begin_layout Itemize
-Duranton-Overman index: localization threshold: 1000 mi, 500 mi, 250 mi,
- and 100 mi
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1775,29 +1418,32 @@ IV
 
 \begin_deeper
 \begin_layout Itemize
-industries may be collocated NOT because of Marshallian factors
+Industries may be collocated not because of Marshallian factors.
 \end_layout
 
 \begin_layout Itemize
-***Industries may be collacated due to some randome event, but their flexible
- production technologies allow them to adjust to nearby labor and material
- inputs.
- 
+Reverse causality: collocation could be driving input-output linkages or
+ hiring patterns
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-***So we might attribute the use of the nearby labour and material inputs
- as a reason for collocating.
+Industries may be collocated due to some random event, but their flexible
+ production technologies allow them to adjust to nearby labour and material
+ inputs 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Itemize
+So we might attribute the use of the nearby labour and material inputs as
+ a reason for collocating.
  when in fact they collocated randomly and was just able to adjust their
  production processes to the nearby labor and material inputs.
 \end_layout
 
-\begin_layout Itemize
-reverse causaility: collocation (tendency of industries to locate in the
- same region) could be driving input-output linkages or hiring patterns
-\end_layout
+\end_inset
 
-\begin_layout Itemize
+
 \begin_inset Note Note
 status collapsed
 
@@ -1815,10 +1461,9 @@ e.g.
 
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Concern is that random events causing coagglomeration is diriving input
- and labour patterns (leading to biased estimates of coefs on these vars.),
- rather than input and labour patterns driving/explaining coagglomeration
+Unmodeled natural advantages may bias estimates
 \end_layout
 
 \end_deeper
@@ -1844,19 +1489,35 @@ IV
 
 \begin_deeper
 \begin_layout Itemize
-What is the IV?
+UK IV
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measures of input-out linkage, labour market, and technology for U.K.
+ industries (two industries randomly coagglomerated in U.S.
+ will not be coagglomerated in the U.K.
+ )
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+US Spatial IV
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measures input-output and labour patterns in one industry in places where
+ the other industry is quite rare
 \end_layout
 
 \begin_layout Itemize
-UK IV:Measures of input-out linkage, labour market, and technology for the
- UK (predicts US measures and affects US Coagg only through US measures
- so long as you control for CoaggNA)
+Addresses issue where input / labour choices is affected by proximity of
+ plants in the other industry (biasing measures of the Marshallian forces
+ variables)
 \end_layout
 
-\begin_layout Itemize
-US Spatial instruments: 
-\end_layout
-
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -1994,6 +1655,170 @@ huge{End}
 
 \begin_layout Section
 Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Descriptive Statistics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb1.png
+	scale 27.5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Industries that are most coagglomerated
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename tb2.png
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+footnotesize
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+raggedright
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -2287,7 +2112,7 @@ EG Coagglomeration Index Intuition
 
 \begin_deeper
 \begin_layout Itemize
-Account for overall geographic concetration of employment nationally
+Account for overall geographic concentration of employment nationally
 \end_layout
 
 \begin_layout Standard
